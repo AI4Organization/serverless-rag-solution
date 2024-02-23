@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
+
 import * as cdk from 'aws-cdk-lib';
 import { ServerlessRagSolutionStack } from '../lib/serverless-rag-solution-stack';
 
