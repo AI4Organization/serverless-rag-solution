@@ -41,3 +41,7 @@ FAISS is a library developed by Facebook AI Research, designed for efficient sim
 ## ChromaDB
 
 ChromaDB is a specialized vector database engineered for embedding management and similarity search at scale. Its design focuses on maximizing query performance and scalability, facilitating the development of machine learning and AI applications that require efficient handling of complex vector data.
+
+### Weaviate
+
+Weaviate is an open-source vector search engine equipped with machine learning capabilities for semantic search, automatic classification, and object recognition. It provides a flexible and scalable architecture, supporting various data types for building intelligent applications with contextually relevant search functionalities.
