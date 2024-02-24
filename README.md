@@ -26,10 +26,16 @@ A fully managed machine learning (ML) service that automatically extracts text a
 
 An advanced tool designed to facilitate the integration and application of LLMs within our architecture. Langchain will be utilized to preprocess the extracted data, making it suitable for storage and retrieval in the vector database, thus enhancing the capabilities of LLM applications.
 
-### Qdrant Vector Database
+### Qdrant
 
 A high-performance vector database optimized for machine learning and similarity search. Our solution leverages Qdrant to store processed data, allowing for efficient data retrieval and management, crucial for powering LLM applications like RAG.
 
 ### LlamaIndex
 
 LlamaIndex is an innovative indexing solution optimized for vector search operations within large-scale databases. It enhances the speed and accuracy of similarity searches, making it a valuable tool for improving the performance of applications reliant on vector database technologies.
+
+### FAISS
+
+FAISS is a library developed by Facebook AI Research, designed for efficient similarity search and clustering of dense vectors. It excels in handling large datasets, enabling rapid retrieval of items in high-dimensional spaces, making it ideal for applications requiring fast vector similarity.
+
+
