@@ -38,4 +38,6 @@ LlamaIndex is an innovative indexing solution optimized for vector search operat
 
 FAISS is a library developed by Facebook AI Research, designed for efficient similarity search and clustering of dense vectors. It excels in handling large datasets, enabling rapid retrieval of items in high-dimensional spaces, making it ideal for applications requiring fast vector similarity.
 
+## ChromaDB
 
+ChromaDB is a specialized vector database engineered for embedding management and similarity search at scale. Its design focuses on maximizing query performance and scalability, facilitating the development of machine learning and AI applications that require efficient handling of complex vector data.
