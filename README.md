@@ -6,7 +6,7 @@ This proposal outlines a cutting-edge serverless solution designed to streamline
 
 Our architecture harnesses the power of AWS services combined with advanced technologies to facilitate seamless file ingestion, processing, and storage into a Qdrant vector database. This infrastructure is designed to support high-volume, complex LLM applications by providing a resilient, scalable, and highly accessible data layer.
 
-![LLM_RAG Architecture](LLM_RAG.png)
+![LLM_RAG Architecture](assets/LLM_RAG.png)
 
 ## Key Components of the Solution
 
