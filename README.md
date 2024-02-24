@@ -45,3 +45,8 @@ ChromaDB is a specialized vector database engineered for embedding management an
 ### Weaviate
 
 Weaviate is an open-source vector search engine equipped with machine learning capabilities for semantic search, automatic classification, and object recognition. It provides a flexible and scalable architecture, supporting various data types for building intelligent applications with contextually relevant search functionalities.
+
+### Pinecone
+
+Pinecone is a managed vector database service designed for building and deploying large-scale similarity search applications. It offers a simple, scalable solution for developers to implement advanced search features, such as recommendation systems and personalized content discovery, with minimal operational overhead.
+
