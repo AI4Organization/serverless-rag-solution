@@ -1,11 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -22,10 +16,18 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "outDir": "./dist",
   },
-  "exclude": [
-    "node_modules",
-    "cdk.out"
-  ]
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js",
+    "global-types/**/*",
+    "**/*.js",
+    "**/*.ts",
+    "bin/**/*",
+    "lib/**/*",
+  ],
+  "exclude": ["node_modules", "**/node_modules/*", "cdk.out", "dist"]
 }

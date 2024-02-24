@@ -10,3 +10,4 @@ cdk.out
 *.DS_Store
 
 !process-env.d.ts
+.aider*
