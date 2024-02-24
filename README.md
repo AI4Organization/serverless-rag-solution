@@ -50,3 +50,6 @@ Weaviate is an open-source vector search engine equipped with machine learning c
 
 Pinecone is a managed vector database service designed for building and deploying large-scale similarity search applications. It offers a simple, scalable solution for developers to implement advanced search features, such as recommendation systems and personalized content discovery, with minimal operational overhead.
 
+### Milvus
+
+Milvus is an open-source vector database built for scalable similarity search and AI applications. It supports multiple index types and offers high performance and easy scalability, enabling efficient storage and retrieval of vector embeddings for real-time analytics and machine learning models.
