@@ -42,7 +42,7 @@ export class ServerlessDataIngestionStack extends cdk.NestedStack {
             architecture: lambda.Architecture.ARM_64,
             runtimeManagementMode: lambda.RuntimeManagementMode.AUTO,
             environment: {
-                S3_FILE_TRANSFER_QUEUE_URL: s3FileIngestionQueue.queueUrl,
+                S3_FILE_INGESTION_QUEUE_URL: s3FileIngestionQueue.queueUrl,
             },
             role: new cdk.aws_iam.Role(this, `${props.appName}-s3FileIngestionLambdaFnRole`, {
                 assumedBy: new cdk.aws_iam.ServicePrincipal('lambda.amazonaws.com'),
