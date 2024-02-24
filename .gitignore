@@ -11,3 +11,4 @@ cdk.out
 
 !process-env.d.ts
 .aider*
+.env
