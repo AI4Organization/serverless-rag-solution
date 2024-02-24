@@ -1,4 +1,5 @@
 import * as cdk from 'aws-cdk-lib';
+import { VectorDBProvider } from '../utils/vector-db-provider';
 
 /**
  * Properties for the CxTextAnalysisStack.
@@ -25,4 +26,5 @@ export interface CxTextAnalysisBaseStackProps {
     readonly appName: string;
     readonly deployRegion: string | undefined;
     readonly environment: string;
+    readonly vectorDBProvider: VectorDBProvider;
 }
