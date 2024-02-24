@@ -32,4 +32,4 @@ A high-performance vector database optimized for machine learning and similarity
 
 ### LlamaIndex
 
-An innovative indexing solution designed to optimize the search and retrieval processes within the vector database, further enhancing the efficiency and effectiveness of LLM applications.
+LlamaIndex is an innovative indexing solution optimized for vector search operations within large-scale databases. It enhances the speed and accuracy of similarity searches, making it a valuable tool for improving the performance of applications reliant on vector database technologies.

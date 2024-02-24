@@ -10,7 +10,7 @@ export class ServerlessDataRetrievalStack extends cdk.NestedStack {
         super(scope, id, props);
 
         // lambda function to transfer s3 object from masterS3Bucket to preCachedPdfS3Bucket
-        const dataRetrieveLambdaFn = new PythonFunction(this, `${props.appName}-dataRetrieveLambdaFn`, {
+        const dataRetrievalLambdaFn = new PythonFunction(this, `${props.appName}-dataRetrieveLambdaFn`, {
             functionName: `${props.appName}-dataRetrieveLambdaFn`,
             runtime: cdk.aws_lambda.Runtime.PYTHON_3_11,
             entry: path.join(__dirname, '../src/lambdas/vector-db-retrieval'),
