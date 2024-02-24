@@ -17,12 +17,12 @@ export interface CxTextAnalysisStackProps extends CxTextAnalysisBaseStackProps, 
 
 /**
  * Properties for the CxTextAnalysisBaseStack.
- * @property {string} AppName - The name of the application.
+ * @property {string} appName - The name of the application.
  * @property {string | undefined} deployRegion - The AWS region where the service will be deployed.
  * @property {string} environment - The environment where the service will be deployed.
  */
 export interface CxTextAnalysisBaseStackProps {
-    readonly AppName: string;
+    readonly appName: string;
     readonly deployRegion: string | undefined;
     readonly environment: string;
 }
