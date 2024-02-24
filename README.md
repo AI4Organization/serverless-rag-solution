@@ -38,7 +38,7 @@ LlamaIndex is an innovative indexing solution optimized for vector search operat
 
 FAISS is a library developed by Facebook AI Research, designed for efficient similarity search and clustering of dense vectors. It excels in handling large datasets, enabling rapid retrieval of items in high-dimensional spaces, making it ideal for applications requiring fast vector similarity.
 
-## ChromaDB
+### ChromaDB
 
 ChromaDB is a specialized vector database engineered for embedding management and similarity search at scale. Its design focuses on maximizing query performance and scalability, facilitating the development of machine learning and AI applications that require efficient handling of complex vector data.
 
@@ -53,3 +53,7 @@ Pinecone is a managed vector database service designed for building and deployin
 ### Milvus
 
 Milvus is an open-source vector database built for scalable similarity search and AI applications. It supports multiple index types and offers high performance and easy scalability, enabling efficient storage and retrieval of vector embeddings for real-time analytics and machine learning models.
+
+### Langfuse
+
+An open-source LLM engineering platform designed to support teams in debugging, analyzing, and iterating on their LLM applications collaboratively. It offers features for observability, analytics, and testing, allowing users to track LLM calls, manage prompts, collect scores for LLM completions, and conduct experiments with app behavior prior to deployment. Langfuse emphasizes ease of use, framework agnosticism, and is built for production with incremental adoption capabilities, facilitating the development and monitoring of complex LLM applications
